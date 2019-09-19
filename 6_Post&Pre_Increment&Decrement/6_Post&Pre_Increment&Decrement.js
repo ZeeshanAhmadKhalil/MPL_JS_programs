@@ -1,0 +1,16 @@
+a=1
+console.log("a="+a)//1
+b=a++
+console.log("a="+a)//2
+console.log("b="+b)//1
+b=++a
+console.log("a="+a)//3
+console.log("b="+b)//3
+a=1
+console.log("a="+a)//1
+b=a--
+console.log("a="+a)//0
+console.log("b="+b)//1
+b=--a
+console.log("a="+a)//-1
+console.log("b="+b)//-1

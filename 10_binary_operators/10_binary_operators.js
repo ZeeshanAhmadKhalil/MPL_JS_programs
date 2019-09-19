@@ -1,0 +1,20 @@
+a=2
+b=3
+console.log(a|b)
+console.log(a&b)
+console.log(a^b)
+console.log(a>>1)
+console.log(a<<1)
+console.log(a>>>1)
+console.log(~a)
+a=2
+b=-3
+console.log("\n'")
+console.log(a|b)
+console.log(a&b)
+console.log(a^b)
+console.log(a>>1)
+console.log(a<<1)
+console.log(a>>>1)
+console.log(~a)
+// console.log(a<<<b+"=a<<<b=")
