@@ -13,7 +13,10 @@ console.log(name.indexOf("a"))
 console.log(name.lastIndexOf("a"))
 // console.log(name.localeCompare(2,"a"))
 console.log(name.match("e+"))
-console.log(name.repeat()) // ?????
+console.log(name.repeat(0)) // ?????
+console.log(name.repeat(1))
+console.log(name.repeat(2))
+console.log(name.repeat(3))
 console.log(name.replace("Ahmad","Khan"))
 console.log(name.search("e+"))
 console.log(name.slice(1,6))
