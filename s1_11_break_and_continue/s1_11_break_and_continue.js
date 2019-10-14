@@ -1,0 +1,19 @@
+for(i=0;i<=10;i++){
+    if(i==3)
+    break
+    console.log(i)
+}
+console.log()
+for(i=0;i<=10;i++){
+    if(i%2==0)
+    continue
+    console.log(i)
+}
+console.log()
+list:{
+    console.log("1")
+    console.log("2")
+    break list
+    console.log("3")
+    console.log("4")
+}

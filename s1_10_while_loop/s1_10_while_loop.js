@@ -1,0 +1,21 @@
+i=0
+while(i<10){
+    console.log(i)
+    i++
+}
+i=0
+do{
+    console.log(i)
+}while(i<0)
+i=0
+cars=["bogatti","konengsegg","lambogini"]
+for(;i<cars.length;){
+    console.log(cars[i])
+    i++
+}
+i=0
+cars=["bogatti","konengsegg","lambogini"]
+while(i<cars.length){
+    console.log(cars[i])
+    i++
+}

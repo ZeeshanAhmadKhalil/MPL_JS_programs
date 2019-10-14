@@ -20,4 +20,5 @@ student.display_age=function(){// adding function in student
     console.log("The age is "+student.age)
 }
 student.display_age()
-Object.defineProperty(student,"hobby",{"marvel movies"})
+Object.defineProperty(student,"hobby",{value:"movies",writable:"true"})
+console.log(student.hobby)
